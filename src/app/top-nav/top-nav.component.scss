@@ -1,3 +1,19 @@
 .top-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 5rem;
+  // box-shadow: 0px 15px 1px black;
+  // z-index: 1;
+
+  h1 {
+    color: #5cb85c;
+    cursor: pointer;
+  }
+}
+
+.top-links {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
 }
