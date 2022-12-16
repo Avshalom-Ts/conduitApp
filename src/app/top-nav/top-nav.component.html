@@ -1,6 +1,6 @@
 <header class="top-nav">
   <h1>conduit</h1>
   <div class="top-links">
-    <h3 *ngFor="let button of headerButtons"> {{button}} </h3>
+    <h3 (click)="navLinkPressed(button)" *ngFor="let button of headerButtons"> {{button}} </h3>
   </div>
 </header>
