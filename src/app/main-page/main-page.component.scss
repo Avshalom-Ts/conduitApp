@@ -1,7 +1,12 @@
+.wrapper {
+  width: 100%;
+}
+
 .main-page-content {
+  max-width: 90%;
   display: flex;
   padding: 2rem 4rem;
-  justify-content: space-between;
+  justify-content: center;
 
   &__left {
     width: 66%;
