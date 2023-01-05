@@ -10,6 +10,7 @@ export class AppComponent {
 
   navLink(str: string) {
     this.showPage = str;
+    console.log(this.showPage);
     // console.log(str);
   }
 }
